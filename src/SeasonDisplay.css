@@ -20,7 +20,7 @@
   color: blue;
 }
 .season-display.summer i {
-  color: red;
+  color: #ffd700;
 }
 
 .winter {
@@ -28,5 +28,5 @@
 }
 
 .summer {
-  background-color: orange;
+  background-color: #f3872f;
 }
