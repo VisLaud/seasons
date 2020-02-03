@@ -7,16 +7,16 @@ const seasonConfig = {
     iconName: "sun"
   },
   winter: {
-    text: "Brr its cold!!!!",
+    text: "Brr.. its cold!!!!",
     iconName: "snowflake"
   }
 };
 
-const getSeason = (lat, month) => {
+const getSeason = (latitude, month) => {
   if (month > 2 && month < 9) {
-    return lat > 0 ? "summer" : "winter";
+    return latitude > 0 ? "summer" : "winter";
   } else {
-    return lat > 0 ? "winter" : "summer";
+    return latitude > 0 ? "winter" : "summer";
   }
 };
 
